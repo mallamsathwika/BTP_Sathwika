@@ -96,7 +96,7 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 if math.isnan(fps) or fps <= 0:
     fps = 25.0
 
-out = cv2.VideoWriter("final_output.mp4",
+out = cv2.VideoWriter("phase2_output.mp4",
                       cv2.VideoWriter_fourcc(*'mp4v'),
                       fps,
                       (frame_width, frame_height))
