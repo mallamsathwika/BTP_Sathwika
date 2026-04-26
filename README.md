@@ -1,4 +1,4 @@
-# 🧠 Fall Detection System (BTP)
+# Fall Detection System (BTP)
 
 This project implements a **real-time fall detection system** using:
 - YOLOv8 for human detection  
